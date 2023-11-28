@@ -1,0 +1,100 @@
+<!-- by Yanto Pernando Halomoan Hutapea - 1212140127-->
+<!-- Tugas Pemweb HMTL CSS -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan Praktikum 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <img src="Paul Mccartney.jpg" alt="Ini gambar Paul Mccartney " />
+
+        <div class="side">
+          <h1>Paul Mccartney</h1>
+            <p>
+              Saya seorang musisi dan penyanyi terkenal yang dikenal sebagai salah satu anggota pendiri band legendaris The Beatles. Saya lahir di Liverpool, Inggris, dan memiliki pengaruh besar dalam musik pop dan rock. Dan juga adalah seorang penulis lagu ulung dan telah menciptakan banyak lagu hits selama karirnya, baik sebagai bagian dari The Beatles maupun dalam karir solo.
+            </p>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <a href="#"> Youtube saya</a>
+        <a href="#"> Band saya</a>
+        <a href="#"> Github saya</a>
+      </nav>
+
+      <div class="tentanggue">
+        <h2>Tentang Saya</h2>
+        <p>
+          Paul McCartney adalah anggota pendiri dari band legendaris The Beatles, bersama dengan John Lennon, George Harrison, dan Ringo Starr. The Beatles menjadi salah satu band paling berpengaruh dan sukses dalam sejarah musik pop dan rock. Paul McCartney adalah salah satu ikon musik terbesar dalam sejarah dan memiliki pengaruh besar dalam perkembangan musik pop dan rock. Karirnya yang panjang dan pencapaian-pencapaiannya menjadikannya salah satu musisi paling dihormati dalam industri musik.
+        </p>
+      <center>
+      <video src="Yesterday (With Spoken Word Intro - Live From Studio 50, New York City - 1965) (1080p).mp4"  width="300" controls ></video><br />
+      <h4> "The Beatles - Yesterday"</h4>
+      </center>
+    </div>
+
+      <div class="pengalamansaya">
+      <h2>Pengalaman Saya</h2>
+      <center>
+      <table id="table">
+        <tr class="header-table">
+            <th rowspan="2">no</th>
+            <th rowspan="2">posisi</th>
+            <th rowspan="2">perusahaan</th>
+            <th colspan="2" width="75%">waktu</th>
+        </tr>
+        <tr class="header-table">
+            <th>mulai</th>
+            <th>selesai</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Bassis</td>
+            <td>Band The Beatles</td>
+            <td>Pagi</td>
+            <td>Pagi</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Penyanyi Solo</td>
+            <td>Band Wings</td>
+            <td>Malam</td>
+            <td>Pagi</td>
+        </tr>
+    </table>
+  </center>
+</div>
+<div class="pencapaian-pencapaiannya"
+<h2>Penghargaan yang diraih Band The Beatles</h2>
+<ul>
+    <li>Grammy Award for Best Music Video</li>
+    <li>Grammy Lifetime Achievement Award</li>
+    <li>Brit Award for British Group</li>
+</ul>
+</div>
+
+  <div class="tanya">
+  <form action="jawaban.php" method="POST">
+    <h2>Hubungi Saya</h2>
+    <label for="email">email</label>
+    <input type="text" placeholder="masukkan teks " id="email" /> <br />
+    <br />
+    <p>Apakah kamu suka lagu The Beatles ?</p>
+    <input type="radio" name="soal_b" /> Iya
+    <input type="radio" name="soal_b" /> Tidak
+
+    <h2>Apa itu ?</h2>
+
+    <input type="checkbox" name="a" id="a" value="1" /> Bagus <br />
+    <input type="checkbox" name="a" id="a" value="2" /> Jelek <br />
+    <input type="checkbox" name="a" id="a" value="3" /> Membosankan <br />
+
+    <button type="submit">Kirim</button>
+     
+  </form>
+  </div>
+  </body>
+</html>
