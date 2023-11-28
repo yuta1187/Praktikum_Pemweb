@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fce5cd; /* Light yellow background */
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #d9534f; /* Red text color */
+        }
+
+        .cake {
+            width: 100px;
+            height: 150px;
+            background-color: #8b4513; /* Chocolate cake color */
+            border-radius: 10px;
+            position: relative;
+            margin: 20px auto;
+        }
+
+        .cake::before,
+        .cake::after {
+            content: '';
+            width: 30px;
+            height: 30px;
+            background-color: #ffd700; /* Yellow candles */
+            border-radius: 50%;
+            position: absolute;
+            top: -15px;
+        }
+
+        .cake::before {
+            left: 20px;
+        }
+
+        .cake::after {
+            right: 20px;
+        }
+    </style>
+    <title>Happy Birthday!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <div class="cake"></div>
+    </div>
+</body>
+</html>
